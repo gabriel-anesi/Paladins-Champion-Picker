@@ -54,7 +54,7 @@ GEN_CHAMP_LISTENER.addEventListener("click", function sort() {
             champList = champList.concat(FLK_CHAMPIONS);
         }
     } else {
-        champList = ALL_CHAMPIONS;
+        SELECT_CHAMP.innerText = "Check one class!";
     }
     
     champSort = champList[Math.floor(Math.random() * champList.length)];
