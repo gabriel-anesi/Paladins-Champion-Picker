@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Paladins-Champion-Picker/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="../Paladins-Champion-Picker/images/icon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/images/icon.ico" type="image/x-icon">
     <title>Paladins Champion Picker</title>
 </head>
 <body>
     <header>
         <div class="header-image">
-            <a href="https://www.paladins.com/" target="_blank"><img src="../Paladins-Champion-Picker/images/logo.png"></a> 
+            <a href="https://www.paladins.com/" target="_blank"><img src="/images/logo.png"></a> 
         </div>
     </header>
     <div class="container">
@@ -22,14 +22,18 @@
         <div class="field">
             <div class="field-content">
                 <div class="option-select">
-                    <label for="class">Class:</label>
-                    <select id="class" name="class">
-                        <option value="Todas">All</option>
-                        <option value="Tanque">Tank</option>
-                        <option value="Suporte">Support</option>
-                        <option value="Dano">Damage</option>
-                        <option value="Flanco">Flank</option>
-                    </select>
+                    <label for="class">Tank
+                        <input type="checkbox" name="Tank" id="tank" checked>
+                    </label>
+                    <label for="class">Damage
+                        <input type="checkbox" name="Damage" id="damage" checked>
+                    </label>
+                    <label for="class">Support
+                        <input type="checkbox" name="Support" id="support" checked>
+                    </label>
+                    <label for="class">Flank
+                        <input type="checkbox" name="Flank" id="flank" checked>
+                    </label>
                 </div>
                 <div id="campeao"></div>
                 <button id="gerar_campeao">GO!</button>
@@ -45,6 +49,6 @@
             Designed by - <a href="https://github.com/gabriel-anesi/gabriel-anesi" target="_blank">Gabriel Anesi<sup>&#169</sup></a>
         </div>
     </footer>
-    <script src="../Paladins-Champion-Picker/assets/js/script.js"></script>
+    <script src="/assets/js/script.js"></script>
 </body>
 </html>

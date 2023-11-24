@@ -70,7 +70,7 @@ header .header-image a {
 
 .field-content {
   text-align: center;
-  width: 20vw; }
+  width: 35vw; }
 
 .field h1 {
   font-size: 2rem; }
@@ -79,11 +79,15 @@ header .header-image a {
   width: 1vw;
 }
   
+input[type="checkbox"] {
+  outline: 2px solid #000;
+}
+
 #champ_image {
   display: flex;
-  width: 10vw;
-  margin-left: 5vw;
-}
+  width: 10vw; 
+  margin-left: 2vw;
+  margin-right: 2vw;}
 
 #class {
   text-align: center;
@@ -95,8 +99,10 @@ option {
   font-weight: bold; }
 
 .option-select {
-  padding: 5%;
-margin-bottom: 4vh ; }
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-bottom: 2rem; }
 
 label {
   padding: 4%;
@@ -107,24 +113,22 @@ label {
 
 #campeao {
   display: flex;
-  flex-direction: column;
-  height: 10vh;
-  padding: 1vh;
-  margin-bottom: 20%;
+  justify-content: center;
+  margin-bottom: 10%;
   font-size: 40px;
   color: white;
   text-shadow: 4px 3px 2px black;
   font-weight: 600; }
 
 #gerar_campeao {
-  padding: 10px;
+  padding: 1rem;
+  margin-bottom: 3rem;
   background-color: #0e353c;
   border: none;
   color: white;
   width: 15vw;
   font-size: 15px;
-  text-transform: uppercase;
-  margin-bottom: 10%; }
+  text-transform: uppercase; }
 
 #gerar_campeao:hover {
   border: 1px solid #00ffe4;
@@ -194,4 +198,20 @@ footer {
     font-size: 2rem;
     margin-bottom: 15vh; } }
 
-/*# sourceMappingURL=style.css.map */
+
+    @media (max-width: 340px) {
+      .container h1 {
+        font-size: 1.5rem; }
+    
+      .option-select {
+        display: flex;
+        flex-direction: column;
+        width: 110%;
+      }
+
+      #class {
+        margin-top: 10%; }
+    
+      #campeao {
+        font-size: 2rem;
+        margin-bottom: 15vh; } }
