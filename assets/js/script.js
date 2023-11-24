@@ -33,8 +33,6 @@ GEN_CHAMP_LISTENER.addEventListener("click", function sortear() {
     let champSort;
     let champList;
 
-
-//
     if (CLASS_SELECTOR.value === "Todas") {
         champList = ALL_CHAMPIONS;
     } else if (CLASS_SELECTOR.value === "Tanque") {
