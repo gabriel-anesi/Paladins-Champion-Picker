@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Paladins-Champion-Picker/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../Paladins-Champion-Picker/images/icon.ico" type="image/x-icon">
+    <title>Paladins Champion Picker</title>
+</head>
+<body>
+    <header>
+        <div class="header-image">
+            <a href="https://www.paladins.com/" target="_blank"><img src="../Paladins-Champion-Picker/images/logo.png"></a> 
+        </div>
+    </header>
+    <div class="container">
+        <h1>Paladins Champion Picker</h1>
+        <div class="field">
+            <div class="field-content">
+                <div class="option-select">
+                    <label for="class">Class:</label>
+                    <select id="class" name="class">
+                        <option value="Todas">All</option>
+                        <option value="Tanque">Tank</option>
+                        <option value="Suporte">Support</option>
+                        <option value="Dano">Damage</option>
+                        <option value="Flanco">Flank</option>
+                    </select>
+                </div>
+                <div id="campeao"></div>
+                <button id="gerar_campeao">GO!</button>
+                <br>
+            </div>
+            <div class="field-champion-image">
+                <img alt="Champion Icon" id="champ_image" src="https://dbaues.github.io/champ/res/paladins_logo.png">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="copy">
+            Designed by - <a href="https://github.com/gabriel-anesi/gabriel-anesi" target="_blank">Gabriel Anesi<sup>&#169</sup></a>
+        </div>
+    </footer>
+    <script src="../Paladins-Champion-Picker/assets/js/script.js"></script>
+</body>
+</html>

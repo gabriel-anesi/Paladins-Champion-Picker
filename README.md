@@ -1,0 +1,1 @@
+<h3 align="center" dir="auto">A simple champion randomizer for the Hi Rez game Paladins.

@@ -1,0 +1,197 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, Roboto, Arial, Helvetica, sans-serif; }
+
+body {
+  overflow-y: hidden;
+  max-width: 1300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  background-color: #185c66; }
+
+header {
+  height: 80px;
+  background-color: #185c66;
+  border-bottom: 2px solid #547a8c; }
+
+header .header-image {
+  display: flex;
+  justify-content: center;
+  padding: 5px; }
+
+header .header-image a {
+  display: flex;
+  justify-content: center;
+  height: 60px; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-image: url(../../images/bg1.png);
+  background-position: center;
+  background-size: cover;
+  height: 84vh; }
+
+.container h1 {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  color: white;
+  text-shadow: 4px 2px 3px black;
+  text-align: center;
+  margin-bottom: 5rem;
+  background-color: rgba(236, 145, 0, 0.842);
+  box-shadow: 10px 5px 20px black;
+}  
+
+.field {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(236, 145, 0, 0.842);
+  color: white;
+  text-shadow: 4px 2px 3px black;
+  box-shadow: 10px 5px 20px black;
+  width: 60vw;
+  max-width: 60%;
+  height: 40vh; }
+
+.field-content {
+  text-align: center;
+  width: 20vw; }
+
+.field h1 {
+  font-size: 2rem; }
+
+.field-champ-image {
+  width: 1vw;
+}
+  
+#champ_image {
+  display: flex;
+  width: 10vw;
+  margin-left: 5vw;
+}
+
+#class {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 2vh; }
+
+option {
+  font-weight: bold; }
+
+.option-select {
+  padding: 5%;
+margin-bottom: 4vh ; }
+
+label {
+  padding: 4%;
+  font-weight: bold; }
+
+.field label {
+  font-size: 1.3rem; }
+
+#campeao {
+  display: flex;
+  flex-direction: column;
+  height: 10vh;
+  padding: 1vh;
+  margin-bottom: 20%;
+  font-size: 40px;
+  color: white;
+  text-shadow: 4px 3px 2px black;
+  font-weight: 600; }
+
+#gerar_campeao {
+  padding: 10px;
+  background-color: #0e353c;
+  border: none;
+  color: white;
+  width: 15vw;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-bottom: 10%; }
+
+#gerar_campeao:hover {
+  border: 1px solid #00ffe4;
+  margin-top: -2px;
+  /* Pra não levantar os campos #campeao e h1 */ }
+
+.copy {
+  text-align: center;
+  margin: 2vh; }
+
+.copy a {
+  color: white; }
+
+footer {
+  height: 8vh;
+  background-color: #185c66;
+  border-top: 2px solid #547a8c;
+  font-size: 16px;
+  font-weight: bold; }
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 20px;
+    text-align: center; }
+
+  #gerar_campeao {
+    width: 30vw; } }
+@media (max-width: 600px) {
+  body {
+    min-width: 300px; }
+
+  .container {
+    margin-top: -1vh;
+    height: 75vh;
+    min-width: 300px; }
+
+  .field {
+    height: 60vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    min-width: 250px; }
+
+  .field h1 {
+    font-size: 1.5rem;
+    text-align: center; }
+
+  #campeao {
+    font-size: 20px;
+    padding: 10%;
+    text-align: center; }
+
+  #gerar_campeao {
+    width: 30vw;
+    min-width: 50%; }
+
+  footer {
+    height: 20vh; } }
+@media (max-width: 450px) {
+  .field {
+    margin-top: 0vh;
+    height: 75vh; }
+
+  #class {
+    margin-top: 10%; }
+
+  #campeao {
+    font-size: 2rem;
+    margin-bottom: 15vh; } }
+
+/*# sourceMappingURL=style.css.map */
