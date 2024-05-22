@@ -25,10 +25,10 @@ const DMG_CHAMPIONS = ["Betty-La-Bomba", "Bomb-King", "Cassie", "Dredge", "Drogo
 "Tyra", "Viktor", "Vivian", "Willo"];
 
 const SUP_CHAMPIONS = ["Corvus", "Furia", "Grohk", "Grover", "Io", "Jenos", "Lillith",
-"Mal'Damba", "Pip", "Rei", "Seris", "Ying"];
+"Mal'Damba", "Moji", "Pip", "Rei", "Seris", "Ying"];
 
 const FLK_CHAMPIONS = ["Androxus", "Buck", "Caspian", "Evie", "Koga", "Lex", 
-"Maeve", "Moji", "Skye", "Talus", "Vatu", "VII", "Vora", "Zhin"];
+"Maeve", "Skye", "Talus", "Vatu", "VII", "Vora", "Zhin"];
 
 
 GEN_CHAMP_LISTENER.addEventListener("click", function sort() {
